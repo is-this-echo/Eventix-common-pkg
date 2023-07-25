@@ -1,3 +1,4 @@
+// Import and re-export the modules from errors & middlewares
 export * from "./errors/bad-request-error";
 export * from "./errors/custom-error";
 export * from "./errors/database-connection-error";
