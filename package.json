@@ -12,6 +12,10 @@
     "build": "npm run clean && tsc",
     "pub": "git add . && git commit -m \"patch update\" && npm version patch && npm run build && npm publish"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/is-this-echo/Eventix-common-pkg"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
